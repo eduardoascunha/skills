@@ -1,7 +1,5 @@
 # Eduardo Skills
 
-> A personal framework for working with AI in software engineering.
-
 Eduardo Skills is a collection of GitHub Copilot skills for software-engineering workflows and personal productivity. It is shaped around my own way of working. The initial idea was inspired by Matt Pocock's skills, but the workflows here have been independently designed and rewritten.
 
 > Under active development and testing.
@@ -11,9 +9,7 @@ Eduardo Skills is a collection of GitHub Copilot skills for software-engineering
 GitHub Copilot CLI:
 
 ```bash
-git clone https://github.com/eduardoascunha/skills.git
-cd skills
-copilot plugin install .
+copilot plugin install eduardoascunha/skills
 ```
 
 In VS Code, run **Chat: Install Plugin From Source** and enter:
@@ -22,7 +18,7 @@ In VS Code, run **Chat: Install Plugin From Source** and enter:
 https://github.com/eduardoascunha/skills
 ```
 
-## Workflows
+## Spec-Driven Workflows
 
 ### Workflow 1: Simple changes
 
@@ -58,4 +54,5 @@ The skills are grouped into [`engineering`](./skills/engineering/) workflows and
 - **[improve-text](./skills/productivity/improve-text/SKILL.md)**: Improve English or Portuguese text. `U`
 - **[learn-language](./skills/productivity/learn-language/SKILL.md)**: Practise a language through conversation. `U`
 - **[research](./skills/productivity/research/SKILL.md)**: Research a topic using primary sources. `U`
-- **[unslop](./skills/productivity/unslop/SKILL.md)**: Simplify prose or code without changing its intent. `M`
+- **[unslop-code](./skills/productivity/unslop-code/SKILL.md)**: Simplify code without unnecessary complexity. `M`
+- **[unslop-prose](./skills/productivity/unslop-prose/SKILL.md)**: Simplify prose while preserving its meaning and register. `M`

@@ -1,6 +1,6 @@
 {
   "name": "eduardo-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eduardo's personal AI engineering skills for GitHub Copilot.",
   "author": {
     "name": "Eduardo Cunha",
@@ -19,6 +19,7 @@
     "./skills/productivity/improve-text",
     "./skills/productivity/learn-language",
     "./skills/productivity/research",
-    "./skills/productivity/unslop"
+    "./skills/productivity/unslop-code",
+    "./skills/productivity/unslop-prose"
   ]
 }
