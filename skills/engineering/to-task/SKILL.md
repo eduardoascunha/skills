@@ -50,4 +50,4 @@ Use only these exact `Status` values:
 
 `/implement-task` owns state transitions. It moves a task from `open` to `in progress`, then to `in review` after validation. It moves the task to `done` only after a clean review, returns it to `in progress` when review findings need fixes, and moves it to `blocked` only with a recorded reason.
 
-After writing the file, list the task IDs and titles. Tell the user to run `/implement-task <id>`.
+After writing the file, list the task IDs and titles. End the final response with `Next step: /implement-task <id>`, replacing `<id>` with the first task whose dependencies are satisfied.

@@ -23,3 +23,5 @@ Implement only the selected approved task.
 8. After validation passes, set only the selected task's `Status` to `in review` and append the checks that passed under `### Checks`.
 
 9. Run `/code-review-task <id>`. If it finds issues, return the task to `in progress`, address the findings, validate again, and repeat the review. When the review reports `No issues found.`, set the task's `Status` to `done`. Leave the changes uncommitted.
+
+10. End every final response with the task outcome. When the selected task is `done`, find the next task with `Status: open` in `.spec-driven/tasks.md`. If one exists, end with `Next step: /implement-task <id>`. If none exists, end with `All tasks done.` When the task is blocked, in progress, in review, missing, or cannot start, clearly state that status and the reason or required action; do not suggest another task.

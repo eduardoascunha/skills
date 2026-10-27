@@ -40,6 +40,7 @@ The skills are grouped into [`engineering`](./skills/engineering/) workflows and
 
 ### Engineering
 
+- **[archive](./skills/engineering/archive/SKILL.md)**: Archive the current workflow using a name derived from its spec. `U`
 - **[grill-me](./skills/engineering/grill-me/SKILL.md)**: Clarify an idea through questions. `U`
 - **[to-spec](./skills/engineering/to-spec/SKILL.md)**: Turn an idea into an approved spec. `U`
 - **[to-task](./skills/engineering/to-task/SKILL.md)**: Split a spec into ordered tasks. `U`
