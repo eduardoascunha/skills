@@ -2,8 +2,6 @@
 
 Eduardo Skills is a collection of GitHub Copilot skills for software-engineering workflows and personal productivity. It is shaped around my own way of working. The initial idea was inspired by Matt Pocock's skills, but the workflows here have been independently designed and rewritten.
 
-> Under active development and testing.
-
 ## Install
 
 GitHub Copilot CLI:
