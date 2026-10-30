@@ -16,4 +16,6 @@ Implement only the approved spec.
 
 5. Validate throughout with the narrowest relevant typecheck and tests. Run pre-commit when configured. Run the full test suite before completion when the project provides one.
 
-6. Run `/code-review` after implementing the spec. Address relevant findings, then report the result and leave the changes uncommitted.
+6. Run `/code-review` after implementing the spec. If it finds issues, address them, validate again, and repeat the review until it reports `No issues found.`
+
+7. Never commit; the user commits when ready. Report the result.

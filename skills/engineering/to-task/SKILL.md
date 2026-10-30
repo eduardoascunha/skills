@@ -6,7 +6,9 @@ disable-model-invocation: true
 
 Read `.spec-driven/spec.md`. If it does not exist, tell the user to run `/to-spec` first and stop.
 
-Explore relevant code when available only to determine task boundaries and dependencies. Do not implement or ask the user questions.
+Explore relevant code when available only to determine task boundaries and dependencies. Do not implement.
+
+Draft the breakdown, then show the user a numbered list with each task's title, dependencies, and the behaviour it delivers. Ask whether the granularity and dependencies are right and whether any tasks should be merged or split. Iterate until the user approves, then write the file.
 
 Write `.spec-driven/tasks.md` using this template:
 
@@ -36,7 +38,9 @@ Write `.spec-driven/tasks.md` using this template:
 - None yet.
 ```
 
-Create tasks that are small enough to implement and review independently. Put tasks in dependency order. Each task must deliver a complete, verifiable behaviour, not a horizontal layer such as "add API" or "write tests". Put required tests in the task that changes the behaviour.
+Create tasks that are small enough to implement and review independently. Put tasks in dependency order. Each task must deliver a complete, verifiable behaviour, not a horizontal layer such as "add API" or "write tests".
+
+Derive each task's `### Verify` from the spec's `Testing` section. When automated tests are required, put them in the task that changes the behaviour, naming the behaviours to test. When the spec says no automated tests are needed, list manual checks instead. Do not create tasks for anything under the spec's `Out of Scope`.
 
 Keep the work simple. Reuse existing patterns and avoid tasks for speculative abstractions, configuration, or future features.
 

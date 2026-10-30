@@ -3,7 +3,7 @@ name: code-review
 description: Review the current implementation against .spec-driven/spec.md for bugs, missing work, and needless complexity.
 ---
 
-Review the implementation of the approved spec. Do not modify code.
+Review the implementation of the approved spec. Do not modify code or commit.
 
 ## Process
 
@@ -11,9 +11,9 @@ Review the implementation of the approved spec. Do not modify code.
 
 2. Review staged and unstaged changes against `HEAD`, including relevant untracked files. If there is no diff, say so and stop. Review the selected changes for:
    - bugs, error paths, boundary cases, regressions, and unsafe data changes;
-   - missing, incorrect, or out-of-scope behaviour against the spec;
+   - missing, incorrect, or out-of-scope behaviour against the spec, including anything listed under its `Out of Scope`;
    - unnecessary abstraction, configuration, input modes, duplication, or comments that do not explain a non-obvious reason;
-   - missing or inadequate tests for changed behaviour.
+   - missing or inadequate tests, judged against the spec's `Testing` section.
 
    Follow repository conventions when they exist. Do not report formatting or lint issues that tooling already catches. Do not invent requirements.
 
