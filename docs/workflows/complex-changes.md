@@ -1,4 +1,4 @@
-# Workflow 2: Complex Changes
+# Workflow: Complex Changes
 
 ```mermaid
 flowchart LR

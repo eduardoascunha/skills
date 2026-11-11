@@ -1,6 +1,6 @@
 {
   "name": "eduardo-skills",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Eduardo's personal AI engineering skills for GitHub Copilot.",
   "author": {
     "name": "Eduardo Cunha",
@@ -8,11 +8,8 @@
   },
   "repository": "https://github.com/eduardoascunha/skills",
   "skills": [
-    "./skills/engineering/archive",
-    "./skills/engineering/code-review",
     "./skills/engineering/code-review-task",
     "./skills/engineering/grill-me",
-    "./skills/engineering/implement",
     "./skills/engineering/implement-task",
     "./skills/engineering/to-spec",
     "./skills/engineering/to-task",

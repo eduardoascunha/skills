@@ -16,7 +16,7 @@ When the result contains **Open Decisions**, choose the best option using the av
 
 2. Write `.spec-driven/spec.md` using the template below. Make it detailed enough to implement without another design discussion. Fill every section; write "None." under Out of Scope when nothing is excluded. State what to build and how to build it. Use codebase evidence to name relevant components, flows, data, and contracts. Include file paths and small code snippets only when they remove meaningful ambiguity.
 
-3. Do not implement the spec. End the final response by telling the user to review `.spec-driven/spec.md` and make any needed additions or changes. Then state: use `/to-task` for complex work that should be split into implementation tasks, or use `/implement` to start direct implementation.
+3. Do not implement the spec. End the final response by telling the user to review `.spec-driven/spec.md` and make any needed additions or changes. Then state: use `/to-task` to split the spec into implementation tasks.
 
 Use this template:
 ```markdown
